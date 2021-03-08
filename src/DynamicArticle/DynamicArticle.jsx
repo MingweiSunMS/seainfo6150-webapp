@@ -1,10 +1,12 @@
 import React from "react";
 import HTMLText from "../HTMLText/HTMLText";
+import {Link} from "react-router-dom";
 
 const DynamicArticle = (props) => {
   return (
     <article>
       <header>
+      <Link to="/articlelist">Back</Link>
         <h1>{props.article.title}</h1>
         <address>
           by {props.article.author} (
