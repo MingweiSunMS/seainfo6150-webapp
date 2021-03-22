@@ -1,13 +1,14 @@
 import React from "react";
 import HTMLText from "../HTMLText/HTMLText.jsx";
 import { Link } from "react-router-dom";
+import style from "./DynamicArticle.module.css"
 
 const DynamicArticle = (props) => {
   return (
     <div>
-      <Link to="/articlelist">Back</Link>
+      <Link to="/articlelist" className={style.link}>Back</Link>
       <article>
-        <header>
+        <div className={style.content}>
           <h1>{props.article.title}</h1>
           <address>
             by {props.article.author} (
@@ -20,8 +21,8 @@ const DynamicArticle = (props) => {
           <time dateTime={props.article.timeStamp}>
             {props.article.displayDate}
           </time>
-        </header>
         <HTMLText text={props.article.text} />
+        </div>
       </article>
     </div>
   );

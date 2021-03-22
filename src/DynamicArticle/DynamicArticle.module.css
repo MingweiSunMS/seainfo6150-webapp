@@ -1,0 +1,10 @@
+.content{
+    border: 1px solid red;
+    border-radius: 20px;
+    background-color: white;
+    margin: 16px;
+    padding: 15px;
+}
+.link{
+    color: red;
+}
