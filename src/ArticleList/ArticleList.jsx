@@ -5,12 +5,12 @@ import ArticleListItem from "../ArticleListItem/ArticleListItem.jsx";
 
 const ArticleList = (props) => {
   return (
-    <div>
-      <ul className={styles.container}>
-        {props.articles.map((article) => (
-          <ArticleListItem article={article} key={article.slug} />
-        ))}
-      </ul>
+    <div className={styles.flexContainer}>
+        <ul className={styles.container}>
+          {props.articles.map((article) => (
+            <ArticleListItem article={article} key={article.slug} />
+          ))}
+        </ul>
     </div>
   );
 };
