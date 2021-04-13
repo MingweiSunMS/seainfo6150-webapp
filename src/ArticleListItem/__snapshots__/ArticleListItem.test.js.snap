@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Article Image tests renders correctly 1`] = `
+<div>
+  <li
+    class="container"
+  >
+    <article
+      class="article"
+    >
+      <header
+        class="header"
+      >
+        <img
+          alt="Ancient termite megapolis as large as Britain found "
+          class="image"
+          src="https://cdn.cnn.com/cnnnext/dam/assets/181121142731-01-termite-nests-super-169.jpg"
+        />
+        <h2
+          class="title"
+        >
+          <a
+            class="link"
+            href="/articlelist/181121142731-01-termite-nests"
+          >
+            Ancient termite megapolis as large as Britain found 
+          </a>
+        </h2>
+      </header>
+      <div
+        class="wrapper"
+      />
+      <button
+        class="button"
+      >
+        Show more
+      </button>
+    </article>
+  </li>
+</div>
+`;

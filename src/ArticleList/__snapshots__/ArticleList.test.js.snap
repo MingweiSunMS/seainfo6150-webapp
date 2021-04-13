@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleList Test renders correctly 1`] = `
+<div>
+  <div>
+    <ul
+      class="container"
+    >
+      <li
+        class="container"
+      >
+        <article
+          class="article"
+        >
+          <header
+            class="header"
+          >
+            <img
+              alt="Ancient termite megapolis as large as Britain found "
+              class="image"
+              src="https://cdn.cnn.com/cnnnext/dam/assets/181121142731-01-termite-nests-super-169.jpg"
+            />
+            <h2
+              class="title"
+            >
+              <a
+                class="link"
+                href="/articlelist/181121142731-01-termite-nests"
+              >
+                Ancient termite megapolis as large as Britain found 
+              </a>
+            </h2>
+          </header>
+          <div
+            class="wrapper"
+          />
+          <button
+            class="button"
+          >
+            Show more
+          </button>
+        </article>
+      </li>
+      <li
+        class="container"
+      >
+        <article
+          class="article"
+        >
+          <header
+            class="header"
+          >
+            <img
+              alt="Travel deals for Black Friday and Cyber Monday "
+              class="image"
+              src="https://cdn.cnn.com/cnnnext/dam/assets/181121093937-travel-deals-rei-adventures-greek-islands-super-169.jpg"
+            />
+            <h2
+              class="title"
+            >
+              <a
+                class="link"
+                href="/articlelist/181121093937-travel-deals-rei-adventures-greek-islands"
+              >
+                Travel deals for Black Friday and Cyber Monday 
+              </a>
+            </h2>
+          </header>
+          <div
+            class="wrapper"
+          />
+          <button
+            class="button"
+          >
+            Show more
+          </button>
+        </article>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
